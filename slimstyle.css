@@ -3,13 +3,14 @@ body {
 	background-color: #1e1e1e;
 	color: #eee;
 	font-family: 'Hack', monospace;
-	font-size: 11px;
+	font-size: 13px;
+	font-style: italic;
 }
 
 #content {
 	width: 512px;
 	padding: 32px;
-	margin: 0 auto;
+	margin: 0 auto 24px;
 }
 
 a {
