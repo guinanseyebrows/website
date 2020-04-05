@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
-
 
 body {
 	background-color: #1e1e1e;
 	color: #eee;
-	font-family: 'IBM Plex Mono', monospace;
+	font-family: 'Hack', monospace;
 	font-size: 11px;
 }
 
@@ -20,22 +18,35 @@ a {
 
 h1 {
 	font-size: 26px;
+}
+
+#header h1 {
 	display: inline;
+	font-weight: 300;
 }
 
 h2 {
 	font-size: 13px;
 	font-style: italic;
-	display: inline;
 }
+
+#header h2 {
+	display: inline;
+	font-weight: 300;
+}
+
 
 h3 {
 	font-size: 14px;
-	padding: 0 0 0 16px;
 	color: #acacac;
 	font-style: italic;
+}
+
+#header h3 {
+	padding: 0 0 0 16px;
 	display: inline;
 	float: right;
+	font-weight: 300;
 }
 
 .center {
@@ -44,10 +55,10 @@ h3 {
 	display: block;
 }
 
-a {
+#header a {
 	text-decoration: none;
 }
 
-a.hover {
+a:hover {
 	color: #ccc;
 }
