@@ -5,6 +5,7 @@ body {
 	font-family: 'Hack', monospace;
 	font-size: 13px;
 	font-style: italic;
+	background: url('./img/bg.png') fixed repeat;
 }
 
 #content {
