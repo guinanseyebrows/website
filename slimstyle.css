@@ -9,9 +9,18 @@ body {
 }
 
 #content {
-	width: 512px;
+	width: 640px;
 	padding: 32px;
 	margin: 0 auto 24px;
+}
+#header {
+	position: relative;
+}
+#nav {
+	position: absolute;
+	right: 0;
+	bottom: 3px;
+	display: inline;
 }
 
 a {
@@ -39,15 +48,14 @@ h2 {
 
 
 h3 {
-	font-size: 14px;
+	font-size: 13px;
 	color: #acacac;
 	font-style: italic;
 }
 
 #header h3 {
-	padding: 0 0 0 16px;
+	padding: 0 0 0 12px;
 	display: inline;
-	float: right;
 	font-weight: 300;
 }
 
